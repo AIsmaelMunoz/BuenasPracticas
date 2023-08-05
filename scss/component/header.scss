@@ -1,5 +1,7 @@
 header {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-image: url(../img/present.jpeg);
     background-size: cover;
     height: 38vh;
@@ -7,13 +9,22 @@ header {
 
     h1 {
         img {
+            margin: 8px 15px;
             max-width: 100px;
-            position: absolute;
+            justify-content: start;
             left: 6vw;
         }
     }
 
-    
+    nav {
+        margin: 8px 15px;
 
+        li {
+            display: inline;
+            text-align: center;
+            justify-content: end;
+            padding: 5px;
+        }
+    }
 
 }

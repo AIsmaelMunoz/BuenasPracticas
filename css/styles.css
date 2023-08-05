@@ -8,18 +8,38 @@
 
 header {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background-image: url(../img/present.jpeg);
   background-size: cover;
   height: 38vh;
   color: white;
 }
 header h1 img {
+  margin: 8px 15px;
   max-width: 100px;
-  position: absolute;
+  justify-content: start;
   left: 6vw;
 }
-header nav ul li {
-  align-items: end;
+header nav {
+  margin: 8px 15px;
+}
+header nav li {
+  display: inline;
+  text-align: center;
+  justify-content: end;
+  padding: 5px;
+}
+
+.header_btn {
+  background-color: #8B0000;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 2px;
+  padding-top: 0;
+  border: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
